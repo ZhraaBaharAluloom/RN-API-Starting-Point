@@ -1,8 +1,10 @@
-import { ItemTypes } from "@/data/items";
-import FontAwesome from "@expo/vector-icons/FontAwesome";
-import { Checkbox } from "expo-checkbox";
 import React, { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
+
+import { ItemTypes } from "@/data/items";
+
+import FontAwesome from "@expo/vector-icons/FontAwesome";
+import { Checkbox } from "expo-checkbox";
 
 interface ItemCardProps {
   item: ItemTypes;

@@ -1,7 +1,7 @@
+import ItemList from "@/components/Todo/ItemList";
+
 function Index() {
-  return {
-    /* TODO: Render you list here to be displayed on the screen */
-  };
+  return <ItemList />;
 }
 
 export default Index;

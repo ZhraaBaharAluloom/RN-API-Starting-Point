@@ -5,7 +5,7 @@ import { ItemTypes } from "@/data/items";
 import AddItem from "./AddItem";
 import ItemCard from "./ItemCard";
 
-const ItemsList = () => {
+const ItemList = () => {
   const [itemData, setItemData] = useState<ItemTypes[]>([]);
 
   const getData = async () => {
@@ -37,7 +37,7 @@ const ItemsList = () => {
   );
 };
 
-export default ItemsList;
+export default ItemList;
 
 const styles = StyleSheet.create({
   listContainer: {
