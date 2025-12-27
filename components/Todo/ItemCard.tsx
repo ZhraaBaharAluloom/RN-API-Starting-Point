@@ -22,7 +22,7 @@ const ItemCard = ({ item }: ItemCardProps) => {
         style={[styles.itemText, isChecked && styles.completed]}
         numberOfLines={1}
       >
-        {item.item}
+        {item.todo}
       </Text>
       <FontAwesome name="remove" size={24} color="red" />
     </View>

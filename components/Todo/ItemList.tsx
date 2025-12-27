@@ -8,10 +8,17 @@ import ItemCard from "./ItemCard";
 const ItemsList = () => {
   const [itemData, setItemData] = useState<ItemTypes[]>([]);
 
+  const getData = async () => {
+    // 1. Install axios (go to npm axios)
+    // 2. use axios to get the data and install it in a variable
+    // 3. store the result in the itemData using setItemData
+  };
+
   useEffect(() => {
-    // Call you async function here
+    // 4. Call the async function here
   }, []);
 
+  // 5. Replace the items inside the <ItemCard /> to render the correct properties
   let itemList = itemData.map((item) => <ItemCard item={item} key={item.id} />);
 
   return (
